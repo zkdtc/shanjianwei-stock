@@ -1,0 +1,412 @@
+{
+  "stocks": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "market_identity": "总龙头（时代级）",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "AI军火商 / GPU总龙头",
+      "discount_horizon": "2028-2030",
+      "capital_type": "机构核心配置",
+      "sector": "AI Infra",
+      "beta_type": "高Beta主线核心",
+      "gann_levels": {
+        "s1": 190,
+        "s2": 160,
+        "r1": 240,
+        "r2": 280
+      },
+      "bottom_valuation": 150,
+      "consensus_valuation": 230,
+      "notes": "AI Capex周期核心受益，财报决定风险偏好，全场最重要时间点"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "market_identity": "平台级龙头",
+      "mainline_layer": "平台层（Platform）",
+      "mainline_position": "AI平台生态控制者",
+      "discount_horizon": "2026-2028",
+      "capital_type": "机构长期配置",
+      "sector": "AI Platform",
+      "beta_type": "低波动平台型",
+      "gann_levels": {
+        "s1": 390,
+        "s2": 360,
+        "r1": 450,
+        "r2": 490
+      },
+      "bottom_valuation": 340,
+      "consensus_valuation": 445,
+      "notes": "Azure AI + Copilot变现，AI agent生态核心平台"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet/Google",
+      "market_identity": "平台级龙头",
+      "mainline_layer": "平台层（Platform）",
+      "mainline_position": "AI agent生态核心玩家",
+      "discount_horizon": "2026-2028",
+      "capital_type": "机构核心配置",
+      "sector": "AI Platform",
+      "beta_type": "低波动平台型",
+      "gann_levels": {
+        "s1": 360,
+        "s2": 320,
+        "r1": 420,
+        "r2": 460
+      },
+      "bottom_valuation": 300,
+      "consensus_valuation": 415,
+      "notes": "广告+Cloud+Gemini，AI终局应用最重要入口之一"
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology",
+      "market_identity": "AI infra细分龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "AI networking高速互连核心",
+      "discount_horizon": "2027-2028",
+      "capital_type": "机构认可的细分龙头",
+      "sector": "AI Networking",
+      "beta_type": "高弹性进攻型",
+      "gann_levels": {
+        "s1": 145,
+        "s2": 115,
+        "r1": 200,
+        "r2": 235
+      },
+      "bottom_valuation": 90,
+      "consensus_valuation": 190,
+      "notes": "AEC技术 AI scaling必要环节，高Beta高波动，主升后期注意时间敏感"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "market_identity": "AI infra细分龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "AI光互连/数据中心光学",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构认可细分",
+      "sector": "AI Photonics",
+      "beta_type": "高弹性进攻型",
+      "gann_levels": {
+        "s1": 870,
+        "s2": 750,
+        "r1": 1050,
+        "r2": 1150
+      },
+      "bottom_valuation": 680,
+      "consensus_valuation": 1020,
+      "notes": "光互连需求随AI Capex增长，关注超大规模云厂订单"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp",
+      "market_identity": "AI infra细分龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "光收发器/AI数据中心互连",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构认可细分",
+      "sector": "AI Photonics",
+      "beta_type": "高弹性进攻型",
+      "gann_levels": {
+        "s1": 330,
+        "s2": 280,
+        "r1": 430,
+        "r2": 480
+      },
+      "bottom_valuation": 260,
+      "consensus_valuation": 420,
+      "notes": "800G/1.6T光收发器，AI Capex直接受益，关注数据中心客户集中度"
+    },
+    {
+      "ticker": "IREN",
+      "name": "Iris Energy",
+      "market_identity": "身份切换阶段（矿企→AI算力）",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "BTC矿企→AI数据中心转型",
+      "discount_horizon": "1-2季度（市场尚未完全相信长期）",
+      "capital_type": "高波动情绪+早期机构试探",
+      "sector": "BTC Mining / AI Datacenter",
+      "beta_type": "高波动身份切换型",
+      "gann_levels": {
+        "s1": 42,
+        "s2": 32,
+        "r1": 65,
+        "r2": 80
+      },
+      "bottom_valuation": 28,
+      "consensus_valuation": 62,
+      "notes": "市场未完全接受新身份，需观察：股价是否脱离BTC波动、机构是否持续建仓、可转债动向"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood",
+      "market_identity": "AI时代新金融平台",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "零售经纪/加密/AI金融应用",
+      "discount_horizon": "2025-2026",
+      "capital_type": "情绪+成长资金",
+      "sector": "Fintech / Crypto Adjacent",
+      "beta_type": "高情绪敏感型",
+      "gann_levels": {
+        "s1": 62,
+        "s2": 50,
+        "r1": 90,
+        "r2": 110
+      },
+      "bottom_valuation": 45,
+      "consensus_valuation": 88,
+      "notes": "加密牛市受益，零售情绪龙头，波动极大"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "market_identity": "AI软件/边缘网络龙头",
+      "mainline_layer": "平台层（Platform）",
+      "mainline_position": "AI agent基础设施/边缘计算",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构成长配置",
+      "sector": "AI Software / Edge",
+      "beta_type": "中高波动成长型",
+      "gann_levels": {
+        "s1": 172,
+        "s2": 145,
+        "r1": 220,
+        "r2": 250
+      },
+      "bottom_valuation": 130,
+      "consensus_valuation": 215,
+      "notes": "Workers AI + AI gateway，边缘AI agent重要基础设施"
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI",
+      "market_identity": "AI医疗应用龙头",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "AI改变医疗决策/基因组分析",
+      "discount_horizon": "2025-2026",
+      "capital_type": "情绪+早期机构",
+      "sector": "AI Healthcare",
+      "beta_type": "高波动应用层",
+      "gann_levels": {
+        "s1": 35,
+        "s2": 27,
+        "r1": 55,
+        "r2": 70
+      },
+      "bottom_valuation": 24,
+      "consensus_valuation": 52,
+      "notes": "AI医疗narrative兑现需时间，关注临床落地证据"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "market_identity": "AI+能源+自动驾驶综合体",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "FSD/Robotaxi/机器人",
+      "discount_horizon": "2026-2028",
+      "capital_type": "散户+情绪+机构混合",
+      "sector": "EV / AI Robotics",
+      "beta_type": "极高情绪敏感型",
+      "gann_levels": {
+        "s1": 360,
+        "s2": 300,
+        "r1": 470,
+        "r2": 540
+      },
+      "bottom_valuation": 260,
+      "consensus_valuation": 450,
+      "notes": "Robotaxi/机器人narrative驱动，情绪波动极大，需区分产品周期和AI narrative"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "market_identity": "AI时代元宇宙/创作平台",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "AI生成内容/Z世代平台",
+      "discount_horizon": "2025-2026",
+      "capital_type": "情绪+散户",
+      "sector": "Gaming / Metaverse",
+      "beta_type": "高情绪敏感型",
+      "gann_levels": {
+        "s1": 35,
+        "s2": 28,
+        "r1": 52,
+        "r2": 65
+      },
+      "bottom_valuation": 24,
+      "consensus_valuation": 50,
+      "notes": "AI生成内容赋能，但变现路径仍不清晰"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "market_identity": "平台级龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "AI ASIC定制芯片/网络基础设施",
+      "discount_horizon": "2027-2028",
+      "capital_type": "机构核心配置",
+      "sector": "AI Infra / ASIC",
+      "beta_type": "低波动核心型",
+      "gann_levels": {
+        "s1": 380,
+        "s2": 330,
+        "r1": 460,
+        "r2": 510
+      },
+      "bottom_valuation": 310,
+      "consensus_valuation": 455,
+      "notes": "Google/Meta ASIC定制芯片受益，VMware整合中，AI Capex长期受益"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "market_identity": "AI软件/政府+企业AI平台",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "AI平台商业化最快落地",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构+散户混合",
+      "sector": "AI Software / Enterprise",
+      "beta_type": "中高波动成长型",
+      "gann_levels": {
+        "s1": 112,
+        "s2": 90,
+        "r1": 155,
+        "r2": 180
+      },
+      "bottom_valuation": 80,
+      "consensus_valuation": 150,
+      "notes": "AIP商业化加速，政府合同+企业扩张，估值已经偏高需注意"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "market_identity": "AI网络安全龙头",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "AI驱动终端安全平台",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构成长配置",
+      "sector": "AI Cybersecurity",
+      "beta_type": "中波动成长型",
+      "gann_levels": {
+        "s1": 530,
+        "s2": 460,
+        "r1": 640,
+        "r2": 700
+      },
+      "bottom_valuation": 420,
+      "consensus_valuation": 630,
+      "notes": "Falcon平台AI模块，安全支出刚性，关注客户增速和NRR"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "market_identity": "AI网络安全平台龙头",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "AI安全平台化整合者",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构核心配置",
+      "sector": "AI Cybersecurity",
+      "beta_type": "低波动平台型",
+      "gann_levels": {
+        "s1": 210,
+        "s2": 182,
+        "r1": 265,
+        "r2": 295
+      },
+      "bottom_valuation": 170,
+      "consensus_valuation": 260,
+      "notes": "平台化整合战略，AI安全最成熟商业模式"
+    },
+    {
+      "ticker": "CBRS",
+      "name": "CBRS / Ondas Holdings",
+      "market_identity": "新兴小票/情绪龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "CBRS无线/工业AI通信",
+      "discount_horizon": "1-2季度",
+      "capital_type": "纯情绪/小市值",
+      "sector": "Wireless / Industrial AI",
+      "beta_type": "极高波动情绪型",
+      "gann_levels": {
+        "s1": 230,
+        "s2": 185,
+        "r1": 330,
+        "r2": 390
+      },
+      "bottom_valuation": 170,
+      "consensus_valuation": 320,
+      "notes": "CBRS无线频谱/工业AI通信，高波动小市值，情绪驱动为主，仓位需严格控制"
+    },
+    {
+      "ticker": "NOK",
+      "name": "Nokia Oyj",
+      "market_identity": "细分龙头",
+      "mainline_layer": "基础设施层（Infra）",
+      "mainline_position": "Communication Equipment",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构成长配置",
+      "sector": "AI Networking",
+      "beta_type": "低波动平台型",
+      "gann_levels": {
+        "s2": 4.2,
+        "s1": 8.97,
+        "r1": 14.57,
+        "r2": 15.95
+      },
+      "bottom_valuation": 4.0,
+      "consensus_valuation": 13.84,
+      "notes": "Communication Equipment | 市值 $77.9B | Beta 0.77"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "market_identity": "平台级龙头",
+      "mainline_layer": "平台层（Platform）",
+      "mainline_position": "Software - Infrastructure",
+      "discount_horizon": "2026-2028",
+      "capital_type": "机构核心配置",
+      "sector": "AI Platform",
+      "beta_type": "高弹性进攻型",
+      "gann_levels": {
+        "s2": 141.3,
+        "s1": 163.76,
+        "r1": 267.98,
+        "r2": 360.16
+      },
+      "bottom_valuation": 134.57,
+      "consensus_valuation": 254.58,
+      "notes": "Software - Infrastructure | 市值 $554.9B | Beta 1.54"
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group",
+      "market_identity": "细分龙头",
+      "mainline_layer": "应用层（Application）",
+      "mainline_position": "Capital Markets",
+      "discount_horizon": "2026-2027",
+      "capital_type": "机构成长配置",
+      "sector": "Capital Markets",
+      "beta_type": "中波动成长型",
+      "gann_levels": {
+        "s2": 52.4,
+        "s1": 81.95,
+        "r1": 206.49,
+        "r2": 313.94
+      },
+      "bottom_valuation": 49.9,
+      "consensus_valuation": 196.17,
+      "notes": "Capital Markets | 市值 $30.5B | Beta 1.00"
+    }
+  ],
+  "market_context": {
+    "current_mainline": "AI Infra（主升后期/高位震荡）",
+    "liquidity_env": "美联储观望期，美元流动性中性偏紧",
+    "risk_appetite": "风险偏好高位震荡，软件/应用层开始承接",
+    "key_catalyst": "NVDA财报周期，AI Capex Guidance",
+    "cycle_phase": "第三阶段（主线高位，资金开始向软件/应用层扩散）",
+    "macro_note": "关注10年期美债收益率、美元指数、联储表态"
+  }
+}
